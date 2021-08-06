@@ -5,3 +5,5 @@ btn.forEach(current => {
     current.parentNode.classList.toggle('active')
   })
 })
+
+console.log(btn)

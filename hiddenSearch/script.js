@@ -3,13 +3,6 @@ let btn = document.querySelector('.btn');
 let input = document.querySelector('.input');
 
 btn.addEventListener('click', () => {
-  // if (active) {
-  //   search.classList.remove('active');
-  //   active = !active
-  // } else {
-  //   search.classList.add('active');
-  //   active = !active
-  // }
   search.classList.toggle('active');
   input.focus();
 })

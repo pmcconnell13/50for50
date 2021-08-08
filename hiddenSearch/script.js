@@ -5,4 +5,6 @@ let input = document.querySelector('.input');
 btn.addEventListener('click', () => {
   search.classList.toggle('active');
   input.focus();
-})
+});
+
+console.log('j')
